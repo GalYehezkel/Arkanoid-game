@@ -14,7 +14,7 @@ import java.awt.Color;
 import java.util.List;
 
 /**
- * A game level the contains a sprite collection, environment, GUI, colors array and sleeper.
+ * A game level that contains a sprite collection, environment, GUI, colors array and sleeper.
  * runs a game that displays blocks pedals and balls.
  */
 public class GameLevel implements Animation {

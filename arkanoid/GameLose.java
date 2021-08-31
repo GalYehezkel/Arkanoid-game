@@ -5,7 +5,7 @@ import arkanoidstats.Counter;
 import biuoop.DrawSurface;
 import biuoop.KeyboardSensor;
 /**
- * A pause screen that pauses the game unit space is pressed.
+ * A pause screen that pauses the game until space is pressed.
  */
 public class GameLose implements Animation {
     private KeyboardSensor keyboard;
