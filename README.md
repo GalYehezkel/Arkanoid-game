@@ -30,19 +30,37 @@ it is replaced with the next one.
 
 **PauseScreen**:  A pause screen that pauses the game until space is pressed.
 
-**Sprite**: interface of Sprite.
+**Sprite**: interface of Sprite. An object that can be drawen on a DrawSurface.
 
 **Classes that implements Sprite interface:**
 
-**Block**:
+**Block**: A block that contains a rectangle and a color, implements Collidable, Sprite, HitNotifier.
 
-**Paddle**:
+**Paddle**: A paddle that contains a rectangle, color and keyboard sensor.
 
-**Ball**:
+**Ball**: A ball that contains his location and radius and functions of set to his fields and move his location.
 
-**ScoreIndicator**:
+**ScoreIndicator**: a score indicator that displays the score.
 
+**Collidable**: A collidable interface. An object that other objects can collide it.
 
+**Classes that implements Collidable interface:**
+
+**Block**
+
+**Paddle**
+
+**SpriteCollection**: A Sprite Collection that contains a list of sprites.
+
+**GameEnvironment**: game environment that contains a collidable list and finds collisions with them and the balls.
+
+**AnimationRunner**: An animation runner.
+
+**CollisionInfo**: collision info that contains collision point and collision object.
+
+**GameFlow**: A game flow that runs the levels.
+
+**Velocity**: A velocity that contains dx and dy.
 
 
 ![arkanoid](https://raw.githubusercontent.com/GalYehezkel/Arkanoid-game/master/images/arkanoid.png)
